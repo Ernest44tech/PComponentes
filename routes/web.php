@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('inicio');
+Route::get('/prueba', function () {
+    return 'Laravel está corriendo correctamente ✅';
 });
 
 Route::view('/inicio','/inicio');
